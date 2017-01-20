@@ -1,6 +1,6 @@
 var express = require ("express");
 var app = express();
-var server = require("http").createServer(app).listen(1606,function(){
+var server = require("http").createServer(app).listen(80,function(){
 	console.log("Connected!");
 });
 app.use(express.static(__dirname + '/assets'));
