@@ -4,12 +4,14 @@
   "description": "This application was built by Nodejs, Empress, Socket.io",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "author": "NguyenToan",
   "license": "ISC",
   "dependencies": {
     "express": "^4.14.0",
+    "foreman": "2.0.0",
     "socket.io": "^1.7.2"
   },
   "keywords": [
@@ -18,5 +20,14 @@
   ],
   "engines": {
     "node": "7.2.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyentoanit/Chatsocket.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nguyentoanit/Chatsocket/issues"
+  },
+  "homepage": "https://github.com/nguyentoanit/Chatsocket#readme"
 }
